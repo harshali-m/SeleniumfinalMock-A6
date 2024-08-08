@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[twitterRegister is executed]]>
+    </line>
+    <line>
+      <![CDATA[giftCard is executed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-08-08T18:14:30 IST" name="Suite" finished-at="2024-08-08T18:16:02 IST" duration-ms="91716">
+    <groups>
+    </groups>
+    <test started-at="2024-08-08T18:14:30 IST" name="Test" finished-at="2024-08-08T18:16:02 IST" duration-ms="91716">
+      <class name="FinalMockTestCases.Task4">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:FinalMockTestCases.Task4@52bf72b5]" started-at="2024-08-08T18:14:30 IST" name="precondition" finished-at="2024-08-08T18:15:06 IST" duration-ms="36097" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method is-config="true" signature="login()[pri:0, instance:FinalMockTestCases.Task4@52bf72b5]" started-at="2024-08-08T18:15:06 IST" name="login" finished-at="2024-08-08T18:15:09 IST" duration-ms="2501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="twitterRegister()[pri:0, instance:FinalMockTestCases.Task4@52bf72b5]" started-at="2024-08-08T18:15:09 IST" name="twitterRegister" finished-at="2024-08-08T18:15:24 IST" duration-ms="15089" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[twitterRegister is executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- twitterRegister -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:FinalMockTestCases.Task4@52bf72b5]" started-at="2024-08-08T18:15:24 IST" name="logout" finished-at="2024-08-08T18:15:26 IST" duration-ms="1922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:FinalMockTestCases.Task4@52bf72b5]" started-at="2024-08-08T18:15:26 IST" name="postCondition" finished-at="2024-08-08T18:15:26 IST" duration-ms="535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- FinalMockTestCases.Task4 -->
+      <class name="FinalMockTestCases.Task1">
+        <test-method is-config="true" signature="precondition()[pri:0, instance:FinalMockTestCases.Task1@16293aa2]" started-at="2024-08-08T18:15:26 IST" name="precondition" finished-at="2024-08-08T18:15:36 IST" duration-ms="9374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- precondition -->
+        <test-method is-config="true" signature="login()[pri:0, instance:FinalMockTestCases.Task1@16293aa2]" started-at="2024-08-08T18:15:36 IST" name="login" finished-at="2024-08-08T18:15:37 IST" duration-ms="1636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="giftCard()[pri:0, instance:FinalMockTestCases.Task1@16293aa2]" started-at="2024-08-08T18:15:37 IST" name="giftCard" finished-at="2024-08-08T18:15:55 IST" duration-ms="18008" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=127.0.6533.90)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9ad3c80cfc8e351b92bfee1c95e9c1ff, clickElement {id=f.94A76953D9CB53A75A236E9F4ACEF9D3.d.74065FED1E46EEA5B0FA59234FE761FF.e.140}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.90, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\HARSHALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51176}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51176/devtoo..., se:cdpVersion: 127.0.6533.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9ad3c80cfc8e351b92bfee1c95e9c1ff)] -> xpath: //img[@title='Show details for $25 Virtual Gift Card']]
+Session ID: 9ad3c80cfc8e351b92bfee1c95e9c1ff]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=127.0.6533.90)
+Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9ad3c80cfc8e351b92bfee1c95e9c1ff, clickElement {id=f.94A76953D9CB53A75A236E9F4ACEF9D3.d.74065FED1E46EEA5B0FA59234FE761FF.e.140}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.90, chrome: {chromedriverVersion: 127.0.6533.99 (f31af5097d90..., userDataDir: C:\Users\HARSHALI\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51176}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51176/devtoo..., se:cdpVersion: 127.0.6533.90, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9ad3c80cfc8e351b92bfee1c95e9c1ff)] -> xpath: //img[@title='Show details for $25 Virtual Gift Card']]
+Session ID: 9ad3c80cfc8e351b92bfee1c95e9c1ff
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
+at com.crm.Pom.GiftCard.giftCard25(GiftCard.java:151)
+at FinalMockTestCases.Task1.giftCard(Task1.java:28)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+            <line>
+              <![CDATA[giftCard is executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- giftCard -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:FinalMockTestCases.Task1@16293aa2]" started-at="2024-08-08T18:15:56 IST" name="logout" finished-at="2024-08-08T18:16:01 IST" duration-ms="5628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:FinalMockTestCases.Task1@16293aa2]" started-at="2024-08-08T18:16:01 IST" name="postCondition" finished-at="2024-08-08T18:16:02 IST" duration-ms="316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- FinalMockTestCases.Task1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
